@@ -1,0 +1,38 @@
+// Step 0: Scripting
+using System;
+using System.IO;
+using System.Collections.Generic;
+using System.Windows.Forms;
+using ScriptingSampleApp.Core;
+
+namespace ScriptingSampleApp.Scripts {
+
+    // Step 1: Fetching necessary data from the DB
+    public class FetchData {
+        // create a temporary table with multiple datatype values from the DB
+
+        // query to the database
+
+        // transform it to a dictionary to store temporarily
+
+    }
+
+     // Step 2: Preparing the input XML
+
+    public class InputXMLGenerator {
+        for each in inputDictionary {
+            // insert in XML
+        }
+    }
+
+    // Step 3: Calling SOAP Service to send the input to the Securitization Capital Calculator
+
+
+    // Step 4: Extracting data from Output XML by enumerating
+
+
+    // Step 5: Store the output back to the DB
+
+
+}
+    
